@@ -129,7 +129,7 @@ h4 {
 /* Regole Sezione a 3 colonne */
 section {
   max-width: 1170px;
-  height: 400px;
+  height: 500px;
   margin: auto;
 }
 .three-row::after {
@@ -140,19 +140,19 @@ section {
 .block-one {
   width: 390px;
   float: left;
-  height: 600px;
+  height: 500px;
   position: relative;
 }
 .block-two {
   width: 390px;
   float: left;
-  height: 600px;
+  height: 500px;
   position: relative;
 }
 .block-three {
   width: 390px;
   float: left;
-  height: 600px;
+  height: 500px;
   position: relative;
 }
 .img-profile {
@@ -197,4 +197,40 @@ section {
   font-weight: 300;
   line-height: 25px;
   color: #999;
+}
+/* Regole hr */
+hr {
+  width: 1850px;
+  margin: auto;
+}
+/* Regole Sezione a 3 colonne */
+.cont-one {
+  width: 50%;
+  float: left;
+  height: 500px;
+  position: relative;
+}
+.cont-two {
+  width: 50%;
+  float: left;
+  height: 500px;
+  position: relative;
+}
+/* Regole Sezione a 1 colonne */
+.one-row {
+  position: relative;
+}
+.box-one {
+}
+.text-one-row {
+  position: absolute;
+  margin-top: 250px;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* Regole del Footer */
+footer {
+  background-color: #0d325a;
+  width: 100%;
+  height: 400px;
 }
